@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="username" value="nivethamani7@gmail.com"/>
+    <classes>
+      <class name="org.testngprogram.TestNG1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeclass"/>
+          <include name="afterMethod"/>
+          <include name="afterclass"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- org.testngprogram.TestNG1 -->
+      <class name="org.testngprogram.TestNG2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test"/>
+          <include name="beforeclass"/>
+          <include name="afterMethod"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- org.testngprogram.TestNG2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
