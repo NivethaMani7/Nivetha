@@ -47,7 +47,7 @@ public class SmpleClss extends BaseClass{
 			fill(d.findElement(By.id("cc_num")), "4467564431234567");
 			sselect(d.findElement(By.id("cc_type")), 1);
 			sselect(d.findElement(By.id("cc_exp_month")), 1);
-			sselect(d.findElement(By.id("cc_exp_year")), 12);
+			sselect(d.findElement(By.id("cc_exp_year")), 9);
 			fill(d.findElement(By.id("cc_cvv")), "456");
 			btnClick(d.findElement(By.id("book_now")));
 			Thread.sleep(7000);
